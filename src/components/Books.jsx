@@ -1,9 +1,14 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import MyBook from './MyBook';
 
 const Books = () => {
+	const { books } = useLoaderData();
 	return (
 		<div className="my-container">
-			<h1>Books</h1>
+			{books.map((book) => (
+				<MyBook key={book.isbn13} book={book}></MyBook>
+			))}
 		</div>
 	);
 };

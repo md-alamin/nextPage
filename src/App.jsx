@@ -10,7 +10,7 @@ const App = () => {
 			<div className="">
 				<Outlet></Outlet>
 			</div>
-			{/* <Footer></Footer> */}
+			<Footer></Footer>
 		</div>
 	);
 };
