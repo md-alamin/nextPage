@@ -7,10 +7,10 @@ const App = () => {
 	return (
 		<div>
 			<Header></Header>
-			<div className="min-h-[80vh]">
+			<div className="">
 				<Outlet></Outlet>
 			</div>
-			<Footer></Footer>
+			{/* <Footer></Footer> */}
 		</div>
 	);
 };

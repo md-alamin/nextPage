@@ -2,7 +2,7 @@ import React from 'react';
 
 const Books = () => {
 	return (
-		<div>
+		<div className="my-container">
 			<h1>Books</h1>
 		</div>
 	);
